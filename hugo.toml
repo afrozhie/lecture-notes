@@ -1,4 +1,4 @@
-baseURL = 'https://dudung.github.io/lecture-notes'
+baseURL = 'https://afrozhie.github.io/lecture-notes'
 languageCode = 'en-us'
 title = 'lecture-notes'
 theme = ['hugo-chart', 'hugo-coder']
@@ -13,17 +13,17 @@ enableEmoji = true
 #disqusShortname = "dudung-github-io-blog"
 
 [params]
-author = "Sparisoma Viridi"
+author = "Firman Andrian"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "Sparisoma Viridi's personal website"
-keywords = "blog,developer,personal"
-info = ["Physicist", "Programmer"]
+description = "Fireman's personal website"
+keywords = "blog,developer,personal,technology"
+info = ["Gamer", "Programmer"]
 
 avatarURL = "img/avatar.svg"
 
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
-since = 2022
+since = 2023
 # Git Commit in Footer, uncomment the line below to enable it
 commit = "https://github.com/luizdepra/hugo-coder/tree/"
 # Right To Left, shift content direction for languagues such as Arabic
@@ -34,7 +34,7 @@ rtl = false
 # "auto" (use preference set by browser)
 # "dark" (dark background, light foreground)
 # "light" (light background, dark foreground) (default)
-colorScheme = "auto"
+colorScheme = "dark"
 
 # Hide the toggle button, along with the associated vertical divider
 hideColorSchemeToggle = false
@@ -116,105 +116,105 @@ author = "authors"
 name = "Github"
 icon = "fa fa-2x fa-github"
 weight = 0
-url = "https://github.com/dudung/"
+url = "https://github.com/afrozhie/"
 
-[[params.social]]
-name = "Flickr"
-icon = "fa fa-2x fa-inkscape"
-weight = 1
-url = "https://inkscape.org/~dudung/"
+# [[params.social]]
+# name = "Flickr"
+# icon = "fa fa-2x fa-inkscape"
+# weight = 1
+# url = "https://inkscape.org/~dudung/"
 
-[[params.social]]
-name = "Gitlab"
-icon = "fa fa-2x fa-gitlab"
-weight = 2
-url = "https://gitlab.com/6unpnp/"
+# [[params.social]]
+# name = "Gitlab"
+# icon = "fa fa-2x fa-gitlab"
+# weight = 2
+# url = "https://gitlab.com/6unpnp/"
 
 [[params.social]]
 name = "Twitter"
 icon = "fa fa-2x fa-twitter"
 weight = 3
-url = "https://twitter.com/6unpnp/"
+url = "https://twitter.com/flamingsoul/"
 
 [[params.social]]
 name = "LinkedIn"
 icon = "fa fa-2x fa-linkedin"
 weight = 4
-url = "https://www.linkedin.com/in/6unpnp/"
+url = "https://www.linkedin.com/in/firefire/"
 
 [[params.social]]
 name = "Medium"
 icon = "fa fa-2x fa-medium"
 weight = 5
-url = "https://medium.com/@6unpnp"
+url = "https://medium.com/@firemankampus"
 
 [[params.social]]
 name = "Instagram"
 icon = "fa fa-2x fa-instagram"
 weight = 6
-url = "https://www.instagram.com/6unpnp"
+url = "https://www.instagram.com/__flamingsoul"
 
-[[params.social]]
-name = "Tumblr"
-icon = "fa fa-2x fa-tumblr"
-weight = 7
-url = "https://6unpnp.tumblr.com/"
+# [[params.social]]
+# name = "Tumblr"
+# icon = "fa fa-2x fa-tumblr"
+# weight = 7
+# url = "https://6unpnp.tumblr.com/"
 
 [[params.social]]
 name = "Facebook"
 icon = "fa fa-2x fa-facebook"
 weight = 8
-url = "https://www.facebook.com/6unpnp"
+url = "https://www.facebook.com/firmanAndrian"
 
-[[params.social]]
-name = "ResearchGate"
-icon = "fa fa-2x fa-researchgate"
-weight = 9
-url = "https://www.researchgate.net/profile/Sparisoma-Viridi"
+# [[params.social]]
+# name = "ResearchGate"
+# icon = "fa fa-2x fa-researchgate"
+# weight = 9
+# url = "https://www.researchgate.net/profile/Sparisoma-Viridi"
 
 [[params.social]]
 name = "WordPress"
 icon = "fa fa-2x fa-wordpress"
 weight = 10
-url = "https://viridi.wordpress.com/"
+url = "https://fireman.wordpress.com/"
 
-[[params.social]]
-name = "ORCID"
-icon = "fa fa-2x fa-orcid"
-weight = 11
-url = "https://orcid.org/0000-0002-7588-4539"
+# [[params.social]]
+# name = "ORCID"
+# icon = "fa fa-2x fa-orcid"
+# weight = 11
+# url = "https://orcid.org/0000-0002-7588-4539"
 
 [[params.social]]
 name = "YouTube"
 icon = "fa fa-2x fa-youtube"
 weight = 12
-url = "https://www.youtube.com/channel/UCE6LwyjTcMSvce57UvyIbfA"
+url = "https://www.youtube.com/channel/UCwUTdWNTeaR4ssonePwt0dg"
 
-[[params.social]]
-name = "Flickr"
-icon = "fa fa-2x fa-flickr"
-weight = 13
-url = "https://www.flickr.com/photos/195637519@N06"
+# [[params.social]]
+# name = "Flickr"
+# icon = "fa fa-2x fa-flickr"
+# weight = 13
+# url = "https://www.flickr.com/photos/195637519@N06"
 
-[[params.social]]
-name = "Mastodon"
-icon = "fa fa-2x fa-mastodon"
-weight = 14
-url = "https://mastodon.world/@6unpnp"
+# [[params.social]]
+# name = "Mastodon"
+# icon = "fa fa-2x fa-mastodon"
+# weight = 14
+# url = "https://mastodon.world/@6unpnp"
 
 [[params.social]]
 name = "Flickr"
 icon = "fa fa-2x fa-discord"
 weight = 15
-url = "https://discordhub.com/profile/1044507917623246919"
+url = "https://discordhub.com/profile/akangbagja112"
 
-[[params.social]]
-name = "RSS"
-icon = "fa fa-2x fa-rss"
-weight = 16
-url = "https://dudung.github.io/lecture-notes/index.xml"
-rel = "alternate"
-type = "application/rss+xml"
+# [[params.social]]
+# name = "RSS"
+# icon = "fa fa-2x fa-rss"
+# weight = 16
+# url = "https://dudung.github.io/lecture-notes/index.xml"
+# rel = "alternate"
+# type = "application/rss+xml"
 
 
 # en (default)

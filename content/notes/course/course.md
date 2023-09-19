@@ -12,13 +12,39 @@ Shortcut:
 
 # Anak Pintar
 
-Selamat datang di Anak Pintar, tempat di mana kecerdasan dan potensi anak-anak berkembang. Kami menyediakan kursus-kursus interaktif yang dirancang khusus untuk membantu anak-anak belajar dengan cara yang menyenangkan dan efektif. Bersama para Pengajar yang kompeten akan membantu murid menjadi juara kelas dan meraih cita-cita. Bergabunglah dengan kami dan berikan anak Anda kesempatan untuk tumbuh dan berprestasi!
+Hai Para Juara!!
+{{<html>}}
+<style>
+    a{
+        color: black;
+        cursor: pointer;
+    }
+</style>
+<script>
+    var b1_visible = false;
+
+    function show(e, i) {
+    p = document.getElementById(i);
+    if(!b1_visible) {
+        p.style.display = "block";
+    } else {
+        p.style.display = "none";    
+    }
+    b1_visible = !b1_visible;
+    
+    }
+</script>
+
+<a onclick="show(event, 'intro');">Anak Pintar?</a>
+<p id="intro" style="display: none;"> Anak Pintar adalah tempat di mana kecerdasan dan potensi anak-anak berkembang. Kami menyediakan kursus-kursus interaktif yang dirancang khusus untuk membantu anak-anak belajar dengan cara yang menyenangkan dan efektif. Bersama para Pengajar yang kompeten akan membantu murid menjadi juara kelas dan meraih cita-cita. Bergabunglah dengan kami dan berikan anak Anda kesempatan untuk tumbuh dan berprestasi!
+</p>
+{{</html>}}
 
 ## Jadwal Kursus
 
-{{< html >}}
+{{<html>}}
 <table border="3">
-  <tr>
+  <tr style="background-color: grey; color: #fff;">
     <th>Jenjang</th>
     <th>Jam</th>
     <th>Pengajar</th>
@@ -121,7 +147,7 @@ Selamat datang di Anak Pintar, tempat di mana kecerdasan dan potensi anak-anak b
     </td>
   </tr>
 </table>
-{{< /html >}}
+{{</html>}}
 
 ## Alur Lingkungan
 
@@ -146,6 +172,40 @@ flowchart LR
 {{< youtube _MRMVGV40DE >}}
 #### Sejarah Kerajaan Tidore
 {{< youtube 1E43z2MP4Iw >}}
+#### Segitiga = setengah persegi
+{{< html >}}
+  <svg style="background: #eee;">
+    <rect x="70" y="45" width="100" height="100"
+    style="
+      stroke: blue;
+      stroke-width: 2px;
+      fill: none;">
+      <animateTransform
+      attributeName="transform"
+      type="scale"
+      from="1 1" to="0 0"
+      begin="0s" dur="10s"
+      repeatCount="indefinite" />
+    </rect>
+    <polygon points="170,45 70,145 70,45" 
+    style="
+      stroke: blue;
+      stroke-width: 2px;
+      fill: red;">
+      <animateTransform
+      attributeName="transform"
+      type="scale"
+      from="1 1" to="0 0"
+      begin="0s" dur="10s"
+      repeatCount="indefinite" />
+    </polygon>
+  </svg>
+  {{< /html >}}
+
+Oleh karena itu rumus luas segitiga adalah 
+$$ at\over 2$$
+atau sisi bawah (alas) dikali sisi samping (tinggi) dibagi 2 yang mana rumus luas persegi adalah sisi x sisi
+
 ### SMP
 #### Biologi
 ##### Organ Mata Bagian Luar
@@ -284,6 +344,4 @@ Integral dilambangkan dengan : $$\int$$
 }
 {{< /chart >}}
 
-Sejak Pertama berdiri pada tahun 2019, Jumlah pendaftar terus meningkat secara signifikan yang menandakan kualitas murid lulusan Anak Pintar sudah dikenal dikhalayak ramai.
-
-## Rating
+Sejak Pertama berdiri pada tahun 2019, Jumlah pendaftar terus meningkat secara signifikan yang menandakan kualitas murid lulusan Anak Pintar sudah dikenal oleh publik.
